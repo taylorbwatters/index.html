@@ -1,32 +1,62 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Taylor Watters</title>
+    <title>Taylor Watters Portfolio</title>
     <link rel="stylesheet" href="index.css" />
+    <script src="index.js" type="module"></script>
   </head>
 
   <body>
     <header>
       <img src="images/tay.png" id="profile-img" />
+
       <div>
-        <div>taylorbwatters</div>
+        <h1>Taylor Watters</h1>
         <div id="projects-and-skills">
-          <div>0 projects</div>
-          <div>3 skills</div>
+          <!-- <div>4 projects</div> -->
+          <!-- <div>3 skills</div> -->
         </div>
       </div>
     </header>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
     <main>
+      <h2 id="projects">Projects</h2>
+      <img
+        id="latest-project-tile"
+        src="images/javascript.png"
+        alt="JavaScript logo"
+      />
+      <h3 id="latest-project-label">JavaScript App</h3>
       <ul id="project-tiles">
-        <li><img src="images/JS.png" alt="JavaScript logo" /></li>
-        <li><img src="images/JS.png" alt="JavaScript logo" /></li>
-        <li><img src="images/JS.png" alt="JavaScript logo" /></li>
-        <li><img src="images/JS.png" alt="JavaScript logo" /></li>
-        <li><img src="images/JS.png" alt="JavaScript logo" /></li>
-        <li><img src="images/JS.png" alt="JavaScript logo" /></li>
-        <li><img src="images/JS.png" alt="JavaScript logo" /></li>
-        <li><img src="images/JS.png" alt="JavaScript logo" /></li>
+        <li>
+          <img src="images/css.png" alt="CSS logo" />
+          <h3>CSS project</h3>
+        </li>
+        <li>
+          <img src="images/html.png" alt="HTML logo" />
+          <h3>HTML project</h3>
+        </li>
+        <li>
+          <img src="images/git.png" alt="Git logo" />
+          <h3>Git project</h3>
+        </li>
       </ul>
+      <h2 id="about">About</h2>
+      <p>
+        My name is Taylor Watters and I am currently attending the full-stack
+        coding bootcamp through the Univeristy of Washington. I orignially
+        graduated from ASU in 2021 with a bachelors in Kinesiology, but quickly
+        realized maybe that wasn't my true passion. I enjoy understanding
+        problems and searching for real world solutions.
+      </p>
+      <h2 id="contact">Contact</h2>
+      <section>
+        <a href="mailto:taylorbbigelow@gmail.com">Email Me</a>
+      </section>
     </main>
     <footer>&copy; Taylor Watters, 2023</footer>
   </body>
